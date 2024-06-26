@@ -40,12 +40,3 @@ class Calculator {
     return "Invalid input, please provide valid numbers";
   }
 }
-
-// Example usage:
-const calc = new Calculator();
-console.log(calc.add(10, 5)); // Output: 15
-console.log(calc.subtract(10, 5)); // Output: 5
-console.log(calc.multiply(10, 5)); // Output: 50
-console.log(calc.divide(10, 5)); // Output: 2
-console.log(calc.divide(10, 0)); // Output: Division by zero is not allowed
-console.log(calc.add("10", 5)); // Output: Invalid input, please provide valid numbers
